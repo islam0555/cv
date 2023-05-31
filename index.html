@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script>
+	function getCookie(name) {
+		var nameEQ = name + "=";
+		var ca = document.cookie.split(';');
+		for(var i=0;i < ca.length;i++) {
+			var c = ca[i];
+			while (c.charAt(0)==' ') c = c.substring(1,c.length);
+			if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+		}
+		return null;
+	}
+	if(getCookie("logged_in") == null || getCookie("logged_in") == ""){
+			window.location.replace('login')
+	}
+		</script>
+	<meta charset="utf-8">
+	<title>CV</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+<!-- 
+Easy Profile Template
+http://www.templatemo.com/tm-467-easy-profile
+-->
+	<!-- stylesheet css -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/templatemo-blue.css">
+</head>
+<body data-spy="scroll" data-target=".navbar-collapse">
+<!-- preloader section -->
+<div class="preloader">
+	<div class="sk-spinner sk-spinner-wordpress">
+       <span class="sk-inner-circle"></span>
+     </div>
+</div>
+
+<!-- header section -->
+<header>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" style="width: 150px;" class="img-responsive img-circle tm-border" alt="templatemo easy profile">
+				<hr>
+				<h1 class="tm-title bold shadow">IM,Madji Nour el islam</h1>
+				<h1 class="white bold shadow">Computer Science Student</h1>
+			</div>
+		</div>
+	</div>
+</header>
+
+<!-- about and skills section -->
+<section class="container">
+	<div class="row">
+		<div class="col-md-6 col-sm-12">
+			<div class="about">
+				<h3 class="accent" style="margin-bottom:50px">Informations personnelles</h3>
+				<ul style="font-size: large;">
+					<li>Nom : madji</li>
+					<li>prénom : nour el islam</li>
+					<li>Numéro de téléphone :0673841039</li>
+					<li>Email: canon.da199@gmail.com</li>
+					<li>University: Batna 2 </li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-md-6 col-sm-12">
+			<div class="skills">
+				<h2 class="white">Expérience professionnelle</h2>
+				<strong>Web designer</strong>
+				<span class="pull-right">70%</span>
+					<div class="progress">
+						<div class="progress-bar progress-bar-primary" role="progressbar" 
+                        aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+					</div>
+				<strong>montage vidéo</strong>
+				<span class="pull-right">85%</span>
+					<div class="progress">
+						<div class="progress-bar progress-bar-primary" role="progressbar" 
+                        aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
+					</div>
+				<strong>Graphic disgner</strong>
+				<span class="pull-right">95%</span>
+					<div class="progress">
+						<div class="progress-bar progress-bar-primary" role="progressbar" 
+                        aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"></div>
+					</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- education and languages -->
+<section class="container">
+	<div class="row">
+		<div class="col-md-8 col-sm-12">
+			<div class="education">
+				<h2 class="white">Formation :</h2>
+					<div class="education-content">
+							<div class="education-school">
+								<h5>- Diplôme en informatique de l'Université de Batna 2.</h5><span></span>
+								<h5>- Certificat en français de niveau B2.</h5><span></span>
+								<h5>- Certificat en anglais de niveau C1.</h5><span></span>
+							</div>
+					</div>
+			</div>
+		</div>
+		<div class="col-md-4 col-sm-12">
+			<div class="languages">
+				<h2>Références : </h2>
+					<h5>Des références de professeurs du département d'informatique de l'Université de Batna 2 sont disponibles sur demande. Des recommandations peuvent être fournies si nécessaire.<h5>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- contact and experience -->
+<section class="container">
+	<div class="row">
+		<div class="col-md-4 col-sm-12">
+			<div class="contact">
+				<h2>Contact</h2>
+					<p><i class="fa fa-map-marker"></i> 123 Rama IX Road, Bangkok</p>
+					<p><i class="fa fa-phone"></i> 010-020-0890</p>
+					<p><i class="fa fa-envelope"></i> easy@company.com</p>
+					<p><i class="fa fa-globe"></i> www.company.com</p>
+			</div>
+		</div>
+		<div class="col-md-8 col-sm-12">
+			<div class="experience">
+				<h2 class="white">Activités supplémentaires :</h2>
+					<div class="experience-content">
+						<h5>- J'ai une longue expérience dans le domaine de la retouche photo et de la modification de vidéos. J'ai développé mes compétences dans ce domaine et j'ai travaillé sur plusieurs projets de conception et de retouche d'images et de vidéos.</h5><span></span>
+						<h5>- J'ai collaboré avec les enseignants du département d'informatique de l'Université de Batna 2, en apportant mon aide dans la mise en œuvre de recherches, de projets et de questions techniques.</h5>
+					</div>
+			</div>
+		</div>
+	</div>
+	<div class="block">
+		<div class="block-header">
+			<div class="title">
+				<h2>Comments</h2>
+				<div class="tag">12</div>
+			</div>
+			<div class="group-radio">
+				<span class="button-radio">
+					<input id="latest" name="latest" type="radio" checked>
+					<label for="latest">Latest</label>
+				</span>
+				<div class="divider"></div>
+				<span class="button-radio">
+					<input id="popular" name="latest" type="radio">
+					<label for="popular">Popular</label>
+				</span>
+			</div>
+		</div>
+		<div class="writing">
+			<div contenteditable="true" class="textarea" autofocus spellcheck="false">
+				<p>Hi <a class="tagged-user">@Jo</a></p>
+			</div>
+			<div class="footer">
+				<div class="text-format">
+					<button class="btn"><i class="ri-bold"></i></button>
+					<button class="btn"><i class="ri-italic"></i></button>
+					<button class="btn"><i class="ri-underline"></i></button>
+					<button class="btn"><i class="ri-list-unordered"></i></button>
+				</div>
+				<div class="group-button">
+					<button class="btn"><i class="ri-at-line"></i></button>
+					<button class="btn primary">Send</button>
+				</div>
+			</div>
+		</div>
+		<div class="comment">
+			<div class="user-banner">
+				<div class="user">
+					<div class="avatar">
+						<img src="https://randomuser.me/api/portraits/men/86.jpg">
+						<span class="stat grey"></span>
+					</div>
+					<h5>Floyd Miles</h5>
+				</div>
+				<button class="btn dropdown"><i class="ri-more-line"></i></button>
+			</div>
+			<div class="content">
+				<p>Actually, now that I try out the links on my message, above, none of them take me to the secure site. Only my shortcut on my desktop, which I created years ago.</p>
+			</div>
+			<div class="footer">
+				<button class="btn"><i class="ri-emotion-line"></i></button>
+				<div class="reactions">
+					<button class="btn react"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/325/thumbs-up_1f44d.png" alt="">4</button>
+					<button class="btn react"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/325/angry-face-with-horns_1f47f.png" alt="">1</button>
+				</div>
+				<div class="divider"></div>
+				<a href="#">Reply</a>
+				<div class="divider"></div>
+				<span class="is-mute">6 hour</span>
+			</div>
+		</div>
+		<div>
+			<div class="comment">
+				<div class="user-banner">
+					<div class="user">
+						<div class="avatar" style="background-color:#fff5e9;border-color:#ffe0bd; color:#F98600">
+							AF
+							<span class="stat green"></span>
+						</div>
+						<h5>Albert Flores</h5>
+					</div>
+					<button class="btn dropdown"><i class="ri-more-line"></i></button>
+				</div>
+				<div class="content">
+					<p>your web page is good and nice skills.</p>
+				</div>
+				<div class="footer">
+					<button class="btn"><i class="ri-emotion-line"></i></button>
+					<div class="divider"></div>
+					<a href="#">Reply</a>
+					<div class="divider"></div>
+					<span class="is-mute">2 min</span>
+				</div>
+			</div>
+			<div class="reply comment">
+				<div class="user-banner">
+					<div class="user">
+						<div class="avatar">
+							<img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="">
+							<span class="stat green"></span>
+						</div>
+						<h5>Madji nour el islam</h5>
+					</div>
+					<button class="btn dropdown"><i class="ri-more-line"></i></button>
+				</div>
+				<div class="content">
+					<p>Hi <a href="#" class="tagged-user">@Albert Flores</a>.Thanks for your reply.</p>
+				</div>
+				<div class="footer">
+					<button class="btn"><i class="ri-emotion-line"></i></button>
+					<div class="reactions">
+						<button class="btn react"><img src="https://cdn-0.emojis.wiki/emoji-pics/apple/smiling-face-with-heart-eyes-apple.png" alt="">2</button>
+					</div>
+					<div class="divider"></div>
+					<a href="#">Reply</a>
+					<div class="divider"></div>
+					<span class="is-mute">18 sec</span>
+				</div>
+			</div>
+		</div>
+		<div class="load">
+			<span><i class="ri-refresh-line"></i>Loading</span>
+		</div>
+	</div>
+</section>
+
+<!-- footer section -->
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<p>Copyright &copy; 2023 Madji Nour el islam</p>
+				<ul class="social-icons">
+					<li><a href="#" class="fa fa-facebook"></a></li>
+                    <li><a href="#" class="fa fa-google-plus"></a></li>
+					<li><a href="#" class="fa fa-twitter"></a></li>
+					<li><a href="#" class="fa fa-dribbble"></a></li>
+					<li><a href="#" class="fa fa-github"></a></li>
+					<li><a href="#" class="fa fa-behance"></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!-- javascript js -->	
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>	
+<script src="js/jquery.backstretch.min.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>
